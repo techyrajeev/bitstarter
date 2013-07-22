@@ -1,0 +1,55 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body > header {
+  background: none repeat scroll 0 0 #FFFFFF;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+nav ul {
+  float: right;
+  list-style: none outside none;
+  margin-top: 26px;
+}
+
+footer{
+float: left;
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+
+.copyright_info {
+  background-color: #1C1C1A;
+  color: #454545;
+  float: left;
+  margin: auto;
+  padding: 14px 0 12px;
+  width: 100%;
+}
+
+.copyright_info span {
+    margin-right: 10px;
+}
+.clear{
+	clear: both;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+
+
+
+
