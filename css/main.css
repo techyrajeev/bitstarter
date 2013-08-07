@@ -1,55 +1,174 @@
-
-
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-body > header {
-  background: none repeat scroll 0 0 #FFFFFF;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  opacity: 0.9;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 999;
+ Author's custom styles
+ ========================================================================== */
+html {
+	margin: 0;
 }
-nav ul {
-  float: right;
-  list-style: none outside none;
-  margin-top: 26px;
+body {
+	padding-top: 0 !important;
+	position: relative;
 }
-
-footer{
-float: left;
-margin: 0;
-padding: 0;
-width: 100%;
+a:hover {
+	text-decoration: none;
 }
-
-
-.copyright_info {
-  background-color: #1C1C1A;
-  color: #454545;
-  float: left;
-  margin: auto;
-  padding: 14px 0 12px;
-  width: 100%;
+body.fetchUp {
+	padding-top: 0 !important;
+}
+header {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6) !important;
+}
+.navbar.navbar-static-top {
+	margin-bottom: 35px;
+}
+.navbar.transparent.navbar-inverse {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+	border-bottom: 1px solid #585858;
+}
+.navbar-inverse .navbar-brand {
+	color: #FFFFFF;
 }
 
-.copyright_info span {
-    margin-right: 10px;
+.hero {
+	background: url("../img/backgrounds/ocean.jpg") no-repeat scroll 0 0 /cover transparent;
+	display: block;
+	height: 510px;
+	margin-bottom: 5px;
+	margin-top: 0px;
 }
-.clear{
-	clear: both;
+.hero .container {
+	position: relative;
+	top: 75px;
 }
-.left{
-	float: left;
+.container .jumbotron {
+	background: none;
+	color: #FFFFFF;
 }
-.right{
-	float: right;
+/* ==========================================================================
+ shadow related hack
+ ========================================================================== */
+.navbar-inverse .navbar-nav > li > a {
+  text-shadow: -0.2px 0.5px 0 #FFFFFF;
+}
+.jumbotron h1 {
+  text-shadow: -0.8px 1.5px 0 #404040;
+}
+/* ==========================================================================
+ Action div related styles
+ ========================================================================== */
+
+.actions {
+	background-color: #428BCA;
+	border-bottom: 6px solid #7CBAF0;
+	border-top: 6px solid #7CBAF0;
+	padding: 40px 0;
+	color: #FFFFFF;
+}
+.actions p {
+	font-size: 24px;
+	font-weight: 300;
+}
+.action a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.action {
+	margin: 30px 0;
+	text-align: center;
+}
+.action img {
+	height: 130px;
+	margin-bottom: 20px;
+}
+/* ==========================================================================
+ Collaboration related styles
+ ========================================================================== */
+.collaboration {
+	background: none repeat scroll 0 0 #EEEEEE;
+	color: #636365;
+	text-align: center;
+	font-size:15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.collaboration h1 {
+	padding-bottom: 25px;
+    text-shadow:-0.8px 1.5px 0 #FFFFFF;
+	
+
+}
+.collaboration .btn-large {
+	margin-top: 20px;
+}
+/* ==========================================================================
+ Footer related styles
+ ========================================================================== */
+#footer {
+	background-color: #23282F;
+	color: #FFFFFF;
+	min-height: 160px;
+	padding-top: 35px;
+}
+#footer .footer_header {
+	color: #C4C4C4;
+	font-size: 25px;
+	font-weight: 300;
+	margin-bottom: 40px;
+	margin-left: 15px;
+}
+#footer .credits .copyright {
+	color: #A6A6A7;
+	margin-top: 20px;
+	text-align: center;
+}
+#footer .credits .social {
+	margin-top: 20px;
+	text-align: center;
+}
+#footer .credits .social a {
+	margin: 10px;
+	
 }
 
-
-
-
-
+#footer .socialicons a{
+	color: #FFFFFF;
+}
+#footer .social .facebook a:hover{
+	color: #428BCA;
+}
+#footer .social .twitter a:hover{
+	color:#33BCEF;
+}
+#footer .social .gplus a:hover
+{
+	color: #D14836;
+}
+.imgholder {
+	height: 100%;
+}
+/* ==========================================================================
+ Default behaviour of social classes
+ ========================================================================== */
+.facebook{
+	color: #3B5998;
+}
+.twitter{
+	color:#33BCEF;
+}
+.gplus{
+	color:#D14836;
+}
+.linkedin{
+	color:#73B8DB;
+}
+.facebook a:hover{
+	color:#B3B3B3;
+}
+.twitter{
+	color:#33BCEF;
+}
+.gplus{
+	color:#D14836;
+}
+.linkedin{
+	color:#73B8DB;
+}

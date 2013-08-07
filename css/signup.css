@@ -1,0 +1,107 @@
+#sign_up{
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+#sign_up .box {
+  background: none repeat scroll 0 0 white;
+  border: 1px solid #DFDFDF;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 0 5px 0 #EEEEEE;
+  float: right;
+  padding: 35px 0 30px;
+  width: 90%;
+}
+
+#sign_up .box .box_cont {
+  margin: 0 auto;
+  width: 77%;
+}
+
+#sign_up .box .social {
+  float: none;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+#sign_up .box .division {
+  float: none;
+  margin: 0 auto 18px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+#sign_up  .box .division .line {
+    border-top: 1px solid #DFDFDF;
+    position: absolute;
+    top: 10px;
+    width: 34%;
+}
+#sign_up  .box .division .l {
+    left: 0;
+}
+#sign_up  .box .division .r {
+    right: 0;
+}
+#sign_up  .box .division span {
+    color: #424242;
+    font-size: 17px;
+}
+#sign_up  .box form .forgot {
+    color: #797979;
+    margin-bottom: 20px;
+    margin-left: 0;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+#sign_up  .box form .forgot span {
+    margin-right: 5px;
+}
+#sign_up  .box form .forgot a {
+    border-bottom: 1px solid #797979;
+    color: #797979;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all 0.2s ease 0s;
+}
+#sign_up  .box form .forgot a:hover {
+    border-color: #187CCC;
+    color: #187CCC;
+}
+
+#sign_up .box form button {
+  background: none repeat scroll 0 0 #187CCC;
+  border: 0 none;
+  border-radius: 3px 3px 3px 3px;
+  color: #FFFFFF;
+  display: block;
+  font-size: 15px;
+  margin: 0 auto;
+  padding: 6px 19px;
+  text-transform: uppercase;
+  transition: background 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+#sign_up .box form button:hover {
+    background: none repeat scroll 0 0 #252528;
+}
+#sign_up  .box .social a{
+	padding: 8px;
+}
+#sign_up  .box .social a:hover{
+	color:#B3B3B3;
+}
+.form-control:-moz-placeholder {
+  color: #555555;
+}
+
+.form-control::-moz-placeholder {
+  color: #555555;
+}
+
+.form-control:-ms-input-placeholder {
+  color:#555555;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #555555;
+}

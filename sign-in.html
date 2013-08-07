@@ -15,6 +15,7 @@
 		</style>
 		<link rel="stylesheet" href="css/vendor/bootstrap.css" />
 		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/signup.css">
 		<link rel="stylesheet" href="css/vendor/font-awesome/css/font-awesome.css">
 
 		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -24,7 +25,7 @@
 		<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->
 		<div class="header">
-			<div class="navbar transparent navbar-inverse navbar-fixed-top">
+			<div class="navbar navbar-inverse navbar-fixed-top">
 				<div class="navbar-inner">
 					<div class="container">
 						<a class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
@@ -50,98 +51,73 @@
 			</div>
 			<!-- /navbar -->
 		</div><!-- /nav-container -->
-		<div class="hero">
+		<div id="sign_up">
 			<div class="container">
-				<div class="col-lg-7 col-sm-6 valueproposition">
-					<div class="jumbotron">
-						<h1>Show the world!</h1>
-						<p>
-							Your Wit with the witty...
-							<br/>
-							A place to show the strength of your wit and lead the world!
-						</p>
-						<p>
-							<a class="btn btn-large btn-success">Learn more</a>
-						</p>
+				<div class="row login">
+					<div class="col-lg-6">
+						<h4>Create your account</h4>
+
+						<div class="perk_box">
+							<div class="perk">
+								<span class="icos ico1"></span>
+								<p>
+									<strong>Lorem alteration</strong> in some form  injected humour these randomised words .
+								</p>
+							</div>
+							<div class="perk">
+								<span class="icos ico2"></span>
+								<p>
+									<strong>There are many variations</strong> of passages of Lorem alteration in some form  injected humour these randomised words.
+								</p>
+							</div>
+							<div class="perk">
+								<span class="icos ico3"></span>
+								<p>
+									<strong>Alteration in some form</strong> injected humour these randomised words.
+								</p>
+							</div>
+						</div>
 					</div>
 
-				</div>
-				<div class="col-lg-5 col-sm-6">
-					<img src="img/other/bulb-white.png" />
-				</div>
+					<div class="col-sm-6">
+						<div class="box">
+							<div class="box_cont">
+								<div class="social">
+									<a class="facebook" href="#"><i class="icon-facebook-sign icon-3x"></i> </a>
+									<a class="twitter" href="#"><i class="icon-twitter-sign icon-3x"></i></a>
+									<a class="gplus" href="#"><i class="icon-google-plus-sign icon-3x"></i> </a>
+									<a class="linkedin" href="#"><i class="icon-linkedin-sign icon-3x"></i> </a>
+								</div>
 
-			</div>
-		</div>
-		<div class="collaboration">
-			<div class="container">
-					<h1>Collaborate.Learn.Share.</h1>
-				<div class="row ">
-					<div class="col-sm-4">
-						<div class="thumbnail">
-							<img data-src="holder.js/300x200" alt="">
-							<div class="caption">
-								<h3>Thumbnail label</h3>
-								<p>
-									Manage your student life easily with the witty.
-									Collaborate with others.
-								</p>
+								<div class="division">
+									<div class="line l"></div>
+									<span>or</span>
+									<div class="line r"></div>
+								</div>
+
+								<form>
+									<fieldset>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Email">
+										</div>
+										<div class="form-group">
+											<input type="password" class="form-control" placeholder="Password">
+										</div>
+										<div class="form-group">
+											<input type="password" class="form-control" placeholder="Confirm Password">
+										</div>
+										<div class="forgot">
+											<span>Already have an account?</span>
+											<a href="sign-in.html">Sign in</a>
+										</div>
+										<button type="submit" class="btn btn-primary">
+											sign up
+										</button>
+									</fieldset>
+								</form>
+
 							</div>
 						</div>
-					</div>
-					<div class="col-sm-4 ">
-						<div class="thumbnail">
-							<img data-src="holder.js/300x200" alt="">
-							<div class="caption">
-								<h3>Thumbnail label</h3>
-								<p>
-									Get alert of class,exams,upcoming events on your profile.
-									Schedule,reschedule the class on the Go.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4 ">
-						<div class="thumbnail">
-							<img data-src="holder.js/300x200" alt="">
-							<div class="caption">
-								<h3>Thumbnail label</h3>
-								<p>
-									Send/recieve the message from/to teacher and broadcast to your classmates.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<p>
-					<a class="btn btn-large btn-success" href="#">Create your account</a>
-				</p>
-			</div>
-		</div>
-		<div class="actions">
-			<div class="container">
-				<div class="row">
-					<p class="text-center col-lg-8 col-offset-2">
-						Shine your wit with the Witty.
-						<br/>
-						Here’s what <strong>you</strong> can contribute to<strong> The student's community</strong>!
-					</p>
-					<div class="col-sm-4 action">
-						<a href="/contribute/"><img alt="Sponsor the site" src="img/other/icon-book.png" class=""></a>
-						<p class="lead">
-							<a href="/contribute/">Sharp your skills</a>
-						</p>
-					</div>
-					<div class="col-sm-4 action">
-						<a href="/contribute/"><img alt="Create new material" src="img/other/icon-ipad.png" class=""></a>
-						<p style="padding-right:20px;" class="lead">
-							<a href="/contribute/">Share your work</a>
-						</p>
-					</div>
-					<div class="col-sm-4 action">
-						<a href="/contribute/"><img alt="Spread the word" src="img/other/icon-user.png" class=""></a>
-						<p class="lead">
-							<a href="/contribute/">Personalize your profile </a>
-						</p>
 					</div>
 				</div>
 			</div>
@@ -177,12 +153,11 @@
 		<script src="js/main.js"></script>
 
 		<script>
-			var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
-			( function(d, t) {
-					var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-					g.src = '//www.google-analytics.com/ga.js';
-					s.parentNode.insertBefore(g, s)
-				}(document, 'script'));
+			var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']]; ( function(d, t) {
+var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+g.src = '//www.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g, s)
+}(document, 'script'));
 		</script>
 	</body>
 </html>
